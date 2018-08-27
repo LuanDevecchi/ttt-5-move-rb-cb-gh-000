@@ -1,3 +1,5 @@
+# code your input_to_index and move method here!
+
 def makeplay(x)
   return " #{x} "
 end
@@ -14,4 +16,4 @@ def display_board(state)
   puts makeplay(state[6]) + separator + makeplay(state[7]) + separator + makeplay(state[8])
 end
 
-# code your input_to_index and move method here!
+
