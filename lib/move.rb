@@ -17,6 +17,10 @@ def display_board(state)
 end
 
 
-def input_to_index(arg)
-  return arg.to_i - 1
+def input_to_index(input)
+  return input.to_i - 1
+end
+
+def move(board,pos,value)
+  board[pos] = value
 end
