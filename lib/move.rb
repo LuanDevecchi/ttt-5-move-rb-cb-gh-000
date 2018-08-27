@@ -17,3 +17,6 @@ def display_board(state)
 end
 
 
+def input_to_index(arg)
+  return arg.to_i - 1
+end
